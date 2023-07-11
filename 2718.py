@@ -1,3 +1,4 @@
+#This is the solution of Question 2718 on Leetcode
 class Solution:
     def matrixSumQueries(self, n: int, queries: List[List[int]]) -> int:
         #When we think about it, later queries will over-write the initial queries
