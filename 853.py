@@ -13,7 +13,7 @@ class Solution:
         #if car A starts behind car B and times[A] <= times[B], then they will merge
         #we can model this by stack. when we sorted times based on start position,
         #if a car starts later but have a higher time, it will block previous cars and that means
-        #it will pop previous cars from stack
+        #it will pop previous cars from stack. That means previous cars will slow down to match that new car.
         times = [i for _,i in sorted(zip(position, times))]
         st = []
         for t in times:
