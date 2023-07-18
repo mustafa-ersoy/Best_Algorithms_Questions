@@ -1,4 +1,4 @@
-#this is the solution of Question 853 on Leetcode
+#this is the solution of Question 787 on Leetcode
 
 
 #This is like a shortest path problem but we have a limitation on number of stops when traveling.
