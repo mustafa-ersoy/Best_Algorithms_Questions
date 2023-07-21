@@ -2,17 +2,6 @@
 #O(n) time, O(n) space complexity
 
 
-"""
-# Definition for a Node.
-class Node:
-    def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
-        self.val = val
-        self.left = left
-        self.right = right
-        self.next = next
-"""
-
-
 #in this question, we need to do level order traversal from left to right and store every node in a level inside an array
 #we'll create a all_nodes hash table as: {1:[node6], 2:[node3, node9], 3:[node2, node1, node4,node7]}
 #hash table above means: in level 1, we have the node6. In level 2, we have the node3 and node9 from left to right and so on.
